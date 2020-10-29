@@ -1,0 +1,42 @@
+test
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/node.json b/node.json
+index b06b89a..95ebe1c 100644
+--- a/node.json
++++ b/node.json
+@@ -1,5 +1,5 @@
+ {
+-    "name": "Hello World Node",
++    "name": "Hello World Nodett",
+     "options": [{
+         "title": "Text",
+         "name": "text",
+diff --git a/node.lua b/node.lua
+index 9f07f8f..5907ef2 100644
+--- a/node.lua
++++ b/node.lua
+@@ -1,7 +1,7 @@
+ gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
+ 
+ local font = resource.load_font "font.ttf"
+-local text = "Hello World"
++local text = "Hello Worldtt"
+ 
+ util.json_watch("config.json", function(config)
+     -- called each time the configuration is changed. 'config'
+diff --git a/package.json b/package.json
+index a4e3851..c76fb6f 100644
+--- a/package.json
++++ b/package.json
+@@ -1,5 +1,5 @@
+ {
+-    "name": "Foo",
++    "name": "Foot",
+     "author": "Ian McClain",
+     "desc": "Bar"
+ }
+\ No newline at end of file
