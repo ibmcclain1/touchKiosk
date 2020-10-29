@@ -1,7 +1,7 @@
 gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 
 local font = resource.load_font "font.ttf"
-local text = "Hello World"
+local text = "Hello Worldtt"
 
 util.json_watch("config.json", function(config)
     -- called each time the configuration is changed. 'config'
