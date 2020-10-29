@@ -13,6 +13,6 @@ end)
 --note
 
 function node.render()
-    gl.clear(0,0,0.2,1)
+    gl.clear(0,0,0.5,1)
     font:write(250, 300, text, 64, 1,1,1,1) -- use the CONFIG value
 end
